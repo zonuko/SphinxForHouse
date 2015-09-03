@@ -74,6 +74,27 @@ Sphinxって何？
     'h2': {fontSize:'70%'},
     'ul/li': {fontSize:'75%',marginTop:'0.5em'},
 
+利点2
+-------------------------------
+
+豊富かつ協力なコードシンタックス
+
+.. code-block:: c++
+
+   class test {
+   private:
+      int a;
+      int b;
+   };
+
+* ActionScript Ada ANTLR AppleScript Assembly (various) Asymptote Befunge Boo BrainFuck C, C++ C# Clojure CoffeeScript ColdFusion Common Lisp Cython D Delphi Dylan Erlang Fortran Gherkin (Cucumber) GL shaders Haskell (incl. Literate Haskell) Io Java JavaScript LLVM Logtalk Lua Matlab MiniD Modelica Modula-2 MuPad Objective-C Objective-J OCaml PHP Perl PovRay Prolog Python 2.x and 3.x (incl. console sessions and tracebacks) Rebol Redcode Ruby (incl. irb sessions) S, S-Plus, R Scala Scheme Smalltalk Tcl Vala Visual Basic.NET XQuery　`その他 <http://note.sicafe.net/sphinx_memo/codeBlockByPygments.html>`_
+
+.. s6:: styles
+
+    'h2': {fontSize:'70%'},
+    'ul/li[0]': {fontSize:'30%',marginTop:'0.5em'}
+
+
 ダメな点
 -------------------------------
 
@@ -100,8 +121,10 @@ Sphinxって何？
    公開できるように出来たら見る方も簡単なはず。検索性も高い。
 * **書く側は記法を覚えなくてはいけない**
    テンプレート用意とか？
+
 * ビルド方法も考える必要あり
-   自動ビルドの方法はいくらでもあるが、実際に置く場合の色々な面倒がありそう・・・
+   | 書く人全員にビルドしてもらう訳にはいかない。
+   | 自動ビルドの方法はいくらでもあるが、実際に置く場合の色々な面倒がありそう・・・
 
 .. s6:: styles
 
